@@ -23,8 +23,8 @@
 						<div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Minhas compras</h5>
-								<p class="card-text"><img alt="compras" src="img/cart.png"> </p>
-								<a href="#" class="btn btn-success">Visitar</a>
+								<p class="card-text"><img width="200px" alt="compras" src="${pageContext.request.contextPath}/img/cart.png"> </p>
+								<a href="<c:url value='/ComprasSrv'/>" class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>
@@ -32,8 +32,8 @@
 						<div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Gestão de produtos</h5>
-								<p class="card-text"><img alt="compras" src="img/product.png"></p>
-								<a href="#" class="btn btn-success">Visitar</a>
+								<p class="card-text"><img width="200px" alt="produtos" src="${pageContext.request.contextPath}/img/product.png"></p>
+								<a href="#" class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>
@@ -41,8 +41,8 @@
 						<div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Gestão de usuário</h5>
-								<p class="card-text"><img alt="compras" src="img/usuario.png"></p>
-								<a href="#" class="btn btn-success">Visitar</a>
+								<p class="card-text"><img width="200px" alt="usuarios" src="${pageContext.request.contextPath}/img/usuario.png"></p>
+								<a href="#" class="btn btn-success">Continue</a>
 							</div>
 						</div>
 					</div>					
